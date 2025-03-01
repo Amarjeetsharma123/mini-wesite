@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VWC-Vishwkarma Web center</title>
+    
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .header{
+            text-align: center;
+            background-color: orange;
+            color: white;
+        }
+
+        .nav-title h1{
+            margin: 0;
+        }
+
+        .navbar{
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            gap: 20px;
+        }
+
+        .navbar a{
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+        }
+
+
+        main{
+            background-image: url(https://t4.ftcdn.net/jpg/04/53/02/57/360_F_453025712_UwvWBBzF6Fenr5HZoB2mrRqsDkFPQsSN.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+
+        main h3{
+            padding-top: 50px;
+            margin: 0;
+        }
+
+        .items{
+            padding-top: 50px;
+            padding-bottom: 100px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        .items div img{
+            width: 250px;
+        }
+
+        .items div button{
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .items div p{
+            margin: 5px 0;
+        }
+
+        .items div .name{
+            padding: 5px 0;
+            font-weight: 600;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="nav-title">   
+            <h1>Shop Ease</h1>
+            <p>Your one-stop online Shop!</p>
+        </div>
+        <div class="navbar">
+            <a href="">Home</a>
+            <a href="">Shop</a>
+            <a href="">About</a>
+            <a href="">Contect</a>
+            <input class="search" type="text" placeholder="Search">
+        </div>
+    </header>
+
+    <main>
+        <h3>Discover the Best Deals Today!</h3>
+        <div class="items">
+            <div>
+                <img src="https://5.imimg.com/data5/IOS/Default/2022/6/GO/OS/HZ/154186846/product-jpeg-500x500.png" alt="">
+                <p class="name">Product 1</p>
+                <p>$33.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div>
+                <img src="https://5.imimg.com/data5/SELLER/Default/2022/11/PN/KD/JD/163608761/hp-pavilion-laptop-14-dv2015tu-500x500.jpg" alt="">
+                <p class="name">Product 2</p>
+                <p>$69.39</p>
+                <button>Add to Cart</button>
+            </div>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXa2aSP5Vv6K7YJwQCnNYMyFjWNZttKTdWZg&s" alt="">
+                <p class="name">Product 3</p>
+                <p>$89.40</p>
+                <button>Add to Cart</button>
+            </div>
+            <div>
+                <img src="https://5.imimg.com/data5/SELLER/Default/2024/1/373693524/BJ/ZS/VE/26041453/71psiezujil-sl1500-500x500.jpg" alt="">
+                <p class="name">Product 4</p>
+                <p>$56.10</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ShopEase. All rigths research.</p>
+    </footer>
+</body>
+</html>
